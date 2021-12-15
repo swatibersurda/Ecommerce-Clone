@@ -8,11 +8,11 @@
     <title>Document</title>
     <style>
         body{
-            margin: 0px;
+            margin-top: 0px;
         }
         .container
         {
-            width: 99%;
+            width: 99.6%;
             border: 1px solid black;
         }
         .topdiv
@@ -60,10 +60,10 @@
             margin-top: 3%;
             font-weight: 200;
         }
-       #ico
+       /* #ico
        {
            color:magenta;
-       }
+       } */
        .discountdiv
        {
            width: 65%;
@@ -97,7 +97,7 @@
            border-left: 1px solid grey;
         
        }
-     .fas
+     .fas,#ico
      {
          color:magenta;
      }
@@ -114,8 +114,8 @@
      
      .shopera{
          width: 90%;
-         height: 150px;
-         border: 1px solid green;
+         height: 190px;
+         border-bottom: 1px solid grey;
          margin-top: 0%;
          margin-left: 4.5%;
          
@@ -148,13 +148,7 @@
      
 
      
-     .category
-     {
-        width:100%;
-         height:30%;
-         border: 1px solid green; 
-         /* margin-top: 1%;  */
-     }
+    
 
      .marginleftsho
      {
@@ -181,11 +175,109 @@
      {
          border-right:1px solid gray;
      }
-  
+     .category
+     {
+        width:100%;
+         height:30%;
+         margin-top: 1%;
+         /* border-bottom: 1px solid grey;  */
+         display: flex;
+         justify-content: space-around;
+         /* margin-top: 1%;  */
+     }
+  #butt
+  {
+      background-color: white;
+      border: none;
+      color: black;
+  } 
+  #slidingdiv
+{
+    width:90%;
+    height:500px;
+    border:1px solid green;
+    margin-top: 1%;
+    margin-left: 4.5%;
+    
+}
+#additionalcarddiv
+{
+    width: 90%;
+    height: 80px;
+    border: 1px solid green;
+    margin-left: 4.5%;
+    margin-top: 7%;
+    display: flex;
+}
+.yonosbi
+{
+   width: 19%;
+   height: 100%;
+   /* border: 1px solid green; */
+   margin-right: .3%;
+   background-color: #00a2e4;
+   text-align: center;
+}
+.tenpercentdiscount
+{
+    width: 56%;
+   height: 100%;
+   /* border: 1px solid green; */
+   color: white;
+   background-color: #00a2e4;
+   line-height: 12px;
+   
+   /* margin-right: 1%; */
+}
+.usecode
+{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid purple; */
+    background-color:#00a2e4 ;
+    color: white;
+    line-height: 12px;
+}
+.yonobutt
+{
+    border-radius: 7%;
+    padding: 5%;
+    box-shadow: purple 0px 3px 8px;
+    background-color: purple;
+    height: 30%;
+    width: 20%;
+    /* border: 1px solid purple; */
+    margin: auto;
+    margin-top: 5%;
+    padding: 5.7%;
+
+}
+.yonomarginleft
+{
+    margin-left: 2%;
+}
+.yonomarginleft+h4
+{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.readmore
+{
+    width: 50%;
+    height: 20%;
+    /* border: 1px solid green; */
+    margin-top: 0%;
+    color: white;
+    background-color: black;
+    padding: 1%;
+    margin-left: 10%;
+}
+
 
     </style>
 </head>
-<!-- <div class="container"> -->
+<div class="container">
 
             <div class="topdiv">
                                     <div class="buttimg">
@@ -259,7 +351,8 @@
                                                 <div class="nav">
                                                     
                                                        <div class="leftdiv">
-                                                         <h1 class="marginleftsho">SEPHORA</h1>
+                                                         <!-- <h1 class="marginleftsho"></h1> -->
+                                                         <img width="50%" height="100%" src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png">
                                                 </div>
                                                 <div class="navigationdiv">
                                                   <div class="borderRight" >
@@ -273,7 +366,8 @@
                                                     <i class="fas fa-user"></i>
                                                     
                                                   </div>
-                                                  <div class="login">Login</div>
+                                                  <div class="login">
+                                                      <a href="xyz.html"><button >Login</button></a></div>
 
                                                 </div>
                                                        
@@ -281,13 +375,53 @@
                                                 </div>
 
 
-                                         <div class="category"></div>
+                                         <div class="category">
+                                         <div><h4>MEN</h4></div>
+                                         <div><h4>WOMEN</h4></div>
+                                         <div><h4>KIDS</h4></div>
+                                         <div><h4>SEPHORA</h4></div>
+                                          <div><h4>ACCESORIES</h4></div>
+                                         <div><h4>FOOTWEAR</h4></div>
+                                         <div><h4>BRANDS</h4></div>
+
+                                         </div>
                                      </div>
                         
                         
-     <!-- </div>       -->
+         
+     <!-- sliding div -->
 
-                                     
+     <div id="slidingdiv">
+     <img width="100%" height="100%" src="https://logan.nnnow.com/content/dam/nnnow-project/14-dec-2021/10DEC21-NNNOWorNEVER-HP-Banner-DSK.jpg">
+     </div>
+
+
+     <!-- additional dscount with card div -->
+     <div id="additionalcarddiv">
+         <div class="yonosbi">
+             <div class="yonobutt">
+                Yono SBI
+                
+             </div>
+             <!-- <button>YONO SBI</button> -->
+         </div>
+         <div class="tenpercentdiscount">
+             <h2 class="yonomarginleft">GET AN ADDITIONAL 10% INSTANT DISCOUNT*</h2>
+             <h4 >ON ALL SBI PAYMENT OPTION</h4>
+
+         </div>
+         <div class="usecode">
+             <h3 class="marginleftyono">USE CODE:YONO10</h3>
+             <div class="readmore">READ MORE</div>
+         </div>
+
+     </div>
+
+
+
+
+
+    </div>                                
 
 
 
@@ -308,3 +442,11 @@
 
 </body>
 </html>
+
+<script>
+    document.querySelector("button").addEventListener("click",hii)
+    function hii()
+    {
+        console.log("hii");
+    }
+</script>
