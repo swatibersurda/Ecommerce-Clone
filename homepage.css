@@ -160,6 +160,11 @@
          /* border:1px solid green; */
          margin-left: 0px;
      }
+     .astyle
+     {
+         text-decoration: none;
+         color: black;
+     }
      .login
      {
          margin-right: 0px;
