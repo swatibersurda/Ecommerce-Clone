@@ -1,0 +1,939 @@
+
+        body{
+            margin-top: 0px;
+        }
+        .container
+        {
+            width: 99.6%;
+            border: 1px solid transparent;
+        }
+        .topdiv
+        {
+            width:100%;
+            height:40px;
+            border :1px solid green;
+            background-color: #f3f3f3;
+            display: flex;
+        }
+        .buttimg
+        {
+            display: flex;
+            border-right:1px solid grey;
+            width: 20%;
+            height: 60%;
+            margin-left: 4%;
+            margin-top: 0.50%;
+        }
+        .butt
+        {
+            width: 23%;
+            height: 100%;
+            /* border: 1px solid purple; */
+            margin-top: 2%;
+            /* background-color: black; */
+            /* background-color: black; */
+        }
+        .imaglog
+        {
+            width: 70%;
+            height: 100%;
+            /* border: 1px solid purple;   */
+            /* margin-left: 1%; */
+        }
+        .storel
+        {
+          width: 8%;
+          height: 100%;
+          border: 1px solid purpple;
+          margin-top: .5%;
+          display: flex;
+        }
+        .storel>div{
+            margin-left: 3%;
+            margin-top: 3%;
+            font-weight: 200;
+        }
+       /* #ico
+       {
+           color:magenta;
+       } */
+       .discountdiv
+       {
+           width: 65%;
+           height: 60%;
+           /* border: 1px solid purple; */
+           margin-left: 1%;
+           margin-top: .8%;
+           display: flex;
+           margin-bottom: 1%;
+       }
+       .stardiv
+       {
+           width: 8%;
+           height: 100%;
+           /* border: 1px solid red; */
+           padding: 0%;
+           
+       }
+       .startext
+       {
+           width: 28%;
+           height:100%;
+           /* border-left:1px solid grey; */
+           margin-right:0.2%; 
+       }
+       #code
+       {
+           width:11%;
+           height:100%;
+           /* border:1px solid green */
+           border-left: 1px solid grey;
+        
+       }
+     .fas,#ico
+     {
+         color:magenta;
+     }
+     .marginlft
+     {
+         margin-left: 3%;
+         border-left: 1px solid grey;
+         padding: 0.2%;
+     }
+     .text{
+         margin-left: 1%;
+     }
+
+     
+     .shopera{
+         width: 90%;
+         height: 190px;
+         border-bottom: 1px solid grey;
+         margin-top: 0%;
+         margin-left: 4.5%;
+         
+     }
+     .nav
+     {
+         width:100%;
+         height:65%;
+         /* border: 1px solid green; */
+         display: flex;
+     }
+     .leftdiv
+     {
+         width: 85%;
+         height: 100%;
+         /* border: 1px solid green; */
+         text-align: center;
+         font-size: 25px;
+         margin-top: 0px;
+     }
+     .navigationdiv
+     {
+         width: 15%;
+         height: 55%;
+         /* border: 1px solid red; */
+         margin-top: 3%;
+         display: flex;
+
+     }
+     
+
+     
+    
+
+     .marginleftsho
+     {
+         margin-left:200px ;
+     }
+     .navigationdiv>div
+     {
+         width: 12%;
+         height: 30%;
+         margin-right: 10px;
+         margin-top: 12%;
+         padding: 0px;
+     }
+     .user
+     {
+         /* border:1px solid green; */
+         margin-left: 0px;
+     }
+     .login
+     {
+         margin-right: 0px;
+     }
+     .borderRight
+     {
+         border-right:1px solid gray;
+     }
+     .category
+     {
+        width:100%;
+         height:30%;
+         margin-top: 1%;
+         /* border-bottom: 1px solid grey;  */
+         display: flex;
+         justify-content: space-around;
+         /* margin-top: 1%;  */
+     }
+  #butt
+  {
+      background-color: white;
+      border: none;
+      color: black;
+  } 
+  #slidingdiv
+{
+    width:90%;
+    height:500px;
+    /* border:1px solid green; */
+    margin-top: 1%;
+    margin-left: 4.5%;
+    
+}
+#additionalcarddiv
+{
+    width: 90%;
+    height: 69px;
+    /* border: 1px solid green; */
+    margin-left: 4.5%;
+    margin-top: 7%;
+    display: flex;
+}
+.yonosbi
+{
+   width: 19%;
+   height: 100%;
+   /* border: 1px solid green; */
+   margin-right: .3%;
+   background-color: #00a2e4;
+   text-align: center;
+}
+.tenpercentdiscount
+{
+    width: 56%;
+   height: 100%;
+   /* border: 1px solid green; */
+   color: white;
+   background-color: #00a2e4;
+   line-height: 12px;
+   
+   /* margin-right: 1%; */
+}
+.usecode
+{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid purple; */
+    background-color:#00a2e4 ;
+    color: white;
+    line-height: 8px;
+}
+.yonobutt
+{
+    border-radius: 7%;
+    padding: 5%;
+    box-shadow: purple 0px 3px 8px;
+    background-color: purple;
+    height: 30%;
+    width: 20%;
+    /* border: 1px solid purple; */
+    margin: auto;
+    margin-top: 5%;
+    padding: 5.7%;
+
+}
+.yonomarginleft
+{
+    margin-left: 2%;
+}
+.yonomarginleft+h4
+{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.readmore
+{
+    width: 50%;
+    height: 20%;
+    /* border: 1px solid green; */
+    margin-top: 0%;
+    color: white;
+    background-color: black;
+    padding: 1%;
+    margin-left: 10%;
+    text-align: center;
+}
+#extrafifteen
+{
+    width: 90%;
+    /* height: 120px; */
+    border: 2px solid orange;
+    background-color: #f6f6f6;
+    margin-left: 4.5%;
+    margin-top: 2.3%;
+    display: grid;
+    grid-template-columns: 15% 32% 38% 15%;
+    text-align: center;
+    line-height: 5px;
+    font-weight: 900;
+}
+#extrafifteen>div
+{
+    /* border: 1px solid green; */
+}
+.dealOftheday
+{
+    line-height: 10px;
+}
+#of
+{
+      width:70%;
+      height:17%;
+      background-color: black;
+      color: white;
+      margin-left: 13%;
+      /* padding: .1%; */
+      margin: auto;
+      text-align: center;
+      line-height: 20px;
+}
+.aero
+{
+  color:navy;
+  text-align: center;
+}
+.aeromargintop
+{
+    margin-top: 20%;
+}
+.sweetshirt
+{
+    line-height: 25px;    
+}
+.sweetshirtfont
+{
+    font-weight: 900;
+    margin-top: 8%;
+    
+}
+.fontwight
+{
+  font-weight: 10;
+}
+.shopbutt
+{
+    width:70%;
+    height:8%;
+    background-color: black;
+    margin-top: 35%;
+    border-radius: 4%;
+    color: white;
+    padding: 8%;
+}
+   
+
+   .mindiv
+   {
+    width: 90%;
+    height: 170px;
+    background-color: #f1f1f1;
+    margin-left: 4.5%;
+    margin-top: 2.1%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: space-between;
+
+    
+}
+   
+   .mindiv>div{
+       border:2px solid orange;
+       margin: 2%;
+       line-height: 30px;
+   }
+   .alignCenter
+   {
+       text-align: center;
+       font-weight: 200;
+   }
+   .under
+   {
+       /* padding-left: 30%; */
+       font-weight: 500;
+       font-size: 48px;
+       text-align: center;
+   }
+   .underdiv
+   {
+       height:150px;
+   }
+   .underdiv>div{
+       height: 60%;
+       padding: 6%;
+   }
+   #buymoresavemore
+   {
+     width: 90%;
+     height: 320px;
+     margin-left: 4.5%;
+     margin-top: 2%;
+   }
+   .divcenter
+   {
+       width:24%;
+       height:15%;
+       /* border:1px solid green; */
+       margin:auto;
+       font-size: 25px;
+       /* padding-top: 0%; */
+       
+       
+   }
+   .divcenter>h3
+   {
+    font-weight: 100;
+
+   }
+   .onpurchasediv
+   {
+       width:100%;
+       height: 72%;
+       margin-top: 1%;
+       display: flex;
+       justify-content: space-between;
+       line-height: 15px;
+
+
+   }
+   .onpurchasediv>div
+   {
+     width:48.8%;
+     height: 100%;
+    background-color: #f1f1f1;
+    border-bottom: 6px solid orange;
+    
+
+   }
+   .oncenter
+   {
+       text-align: center;
+   }
+
+   .line
+   {
+       width:50%;
+       height: 2%;
+       background-color: black;
+       margin-left: 25%;
+   }
+   .buybutton
+   {
+    width: 25%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    margin-left: 37%;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+   }
+   .extraoff
+   {
+       width: 90%;
+       height:200px;
+       border-bottom: 6px solid orange;
+       padding-top: 1%;
+       line-height: 19px;
+       margin-left: 4.5%;
+       background-color:#f1f1f1 ;
+       margin-top: 2%;
+       
+   }
+   .paddingtopfourstyle
+   {
+       padding-top: 1%;
+       padding-bottom: 1%;
+   }
+   .inerweer
+   {
+       width: 40%;
+       margin-left: 30%;
+   }
+   .borderright{
+       border: 5px solid orange;
+       line-height: 30px;
+   }
+   p.para
+   {
+       font-size: 14px;
+       padding-left: 27%;
+   }
+   .lastblack
+   {
+       width:15%;
+       height:10%;
+       padding-top:1%;
+       padding-bottom:1%;
+       color:white;
+       margin-left: 42%;
+       margin-top: 5%;
+   }
+   .paddtop
+   {
+       padding-top: 4%;
+       line-height: 20px;
+   }
+   .paraleft
+   {
+       margin-left: 10%;
+   }
+   .lastborder
+   {
+       border: 5px solid orange;
+   }
+   .now
+   {
+       text-align: center;
+       font-weight: 300;
+       margin-top:6%;
+   }
+   #nowwrecomaded
+   {
+       width: 90%;
+       height: 800px;
+       /* border: 1px solid green; */
+       margin-left: 4.5%;
+       display: grid;
+       grid-template-rows: 49%;
+       grid-template-columns: repeat(3,1fr);
+       grid-gap: 1%;
+
+   }
+   #nowwrecomaded>div
+   {
+       border:px solid transparent;
+       /* background-image: url(https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-Selection2.jpg); */
+   }
+
+
+
+
+   .nnowimage
+   {
+       width:100%;
+       height:75%;
+       border: 1px solid transparent;
+   }
+   .image1
+   {
+       background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-Selection1.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+    }
+   .image2
+   {
+      background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-Selection2.jpg"); 
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+   .image3
+   {
+      background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-Selection3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+   .image4
+   {
+    background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-Selection4.jpg");
+    background-repeat: no-repeat;
+      background-size: cover;  
+}
+   .image5
+   {
+       background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-Selection5.jpg");
+       background-repeat: no-repeat;
+      background-size: cover;
+    }
+   .image6
+   {
+      background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-Selection6.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+.nnowimage+.nowwtextimage
+{
+    width:100%;
+    height:20%;
+    border-top:3px solid orange;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 90%;
+}
+.nowwbutton
+{
+    width: 22%;
+    height: 5%;
+    background-color: white;
+    margin: auto;
+    margin-top: 71%;
+    font-size: 15px;
+    /* padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%; */
+    padding: 1%;
+    font-weight: 900;
+}
+
+.mintextnoww+h2
+{
+ font-weight: 100;
+}
+.horizontaldiv
+
+{
+    width: 90%;
+    height: 115px;
+    border-bottom:5px solid orange;
+    margin-top: 3%;
+    margin-left: 4.5%;
+    display: flex;
+    text-align: center;
+    line-height: 10px;
+    background-color:#f1f1f1; ;
+}
+.vertical1
+{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.vertical2
+{
+    width: 12%;
+    height: 6%;
+    /* border: 1px solid green; */
+    margin-top: 4%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.vertical1>h1:nth-child(3)
+{
+    font-weight: 200;
+}
+#rounddiv
+{
+width:90%;
+height:1200px;
+display: grid;
+grid-template-rows: 24% 24% 24% 24%;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 1%;
+margin-left: 4.5%;
+/* border: 1px solid green; */
+margin-top: 1%;
+
+}
+.roundchild>.roundimg
+{
+    width: 85%;
+    height: 85%;
+    border: 3px solid orange;
+    margin: auto;
+    border-radius: 50%;
+}
+ .roundimg1
+{
+   background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.roundimg2
+{
+    background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg3
+{
+    background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg4
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV4.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg5
+{
+    background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg6
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV6.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg7
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV7.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg8
+{
+    background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg9
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV9.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg10
+{
+    background-image:url(https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV10.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg11
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV11.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg12
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV12.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg13
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV13.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg14
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV14.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg15
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV15.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roundimg16
+{
+    background-image:url("https://logan.nnnow.com/content/dam/nnnow-project/09-dec-2021/non-hp-sale-page-refresh/NONSALE-VISUALNAV16.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roundimagtext
+{
+    text-align: center;
+    width: 60%;
+    height:4%;
+    margin: auto;
+    border-bottom: 3px solid orange;
+    font-size: 20px;
+    padding-left: 0px;
+    line-height: 0px;
+    font-weight: 500;
+}
+#shopbybrand
+{
+    width: 80%;
+    margin-left: 9%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 270px;
+    grid-gap: 1%;
+   
+}
+#shopbybrand>div
+{
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+
+}
+.onebg
+{
+  width: 90%;
+  height: 90%;
+  border: 3px solid orange;
+  margin: 6%;  
+padding: 0%;
+margin-top: 1%;
+}
+#explorenoww
+{
+    width:90%;
+    height: 300px;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-row: 300px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2%;   
+    margin-left: 4.5%;
+}
+
+.greendiv
+{
+    width:13%;
+    height:30px;
+    background-color: #abc72c;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    padding-top: 1.5%;
+    font-size: 18px;
+    font-weight: 700;
+}
+.news
+{
+    width: 100%;
+    height: 100px;
+    background-color: #f1f1f1;
+    padding-top: 1%;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 10px;
+}
+#inputc
+{
+   width: 100%;
+   height:50%;
+   margin-top: 0%;
+   display: flex;
+}
+.inputbox
+{
+    width:70%;
+    height:88%;
+
+    
+}
+input
+{
+    width: 70%;
+    height: 72%;
+    margin-left: 30%;
+}
+.subscribe
+{
+    width: 12%;
+    height: 54%;
+    background-color: black;
+    color: white;
+    margin-left: .2%;
+    margin-top: .0%;
+    padding-top: .5%;
+    padding-bottom: 0.4%;
+    font-size: 23px;
+    font-weight: 800;
+}
+.whitebackgroun
+{
+    width:100%;
+    height: 800px;
+    background-color: white;
+}
+.aligncen
+{
+    text-align: center;
+    font-weight: 300;
+}
+.justifycon
+{
+    text-align: justify;
+}
+.paracon
+{
+    width:90%;
+    height:50px;
+    /* border: 1px solid green; */
+    margin:auto;
+}
+.lefto
+{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-weight: 100;
+    text-align: justify;
+    width: 89%;
+}
+.whoweare
+{
+    width:50%;
+    height: 20px;
+    display: grid;
+    grid-template-columns: 22% 44% 22%;
+    /* border: 1px solid green; */
+    margin:auto;
+    padding-top: 1%;
+    font-weight: 800;
+}
+
+#lastlogos
+{
+    width:40%;
+    height: 30px;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    grid-gap: 1%;
+    margin-left: 40%;
+    margin-top:1%;
+    
+}
+
+.c
+{
+    width:50%;
+    height: 30px;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 1%;
+    margin-left: 30%;
+    margin-top:1%;
+    
+}
+#toopbrand
+{
+    width:70%;
+    height: 15px;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows: 15px;
+    font-size:15px;
+    grid-gap: 0.5%;
+    margin: auto;
+    
+}
+.too
+{
+    border-right: 1px solid black;
+}
+
+  

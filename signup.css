@@ -1,0 +1,27 @@
+input
+{
+    width:30%;
+    height:40px;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 5%;
+    display: flex;
+    font-size: 18px;
+    
+}
+.styleh1
+{
+color:crimson ;
+text-align: center;
+}
+button
+{
+width: 15%;
+height: 50px;
+margin-left: 40%;
+color:white;
+background-color:crimson ;
+border: transparent;
+font-weight: 700;
+font-size: 20px;
+}
