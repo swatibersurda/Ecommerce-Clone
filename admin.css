@@ -1,0 +1,53 @@
+body
+{
+    margin: 0px;
+}
+input
+{
+width:30%;
+height:40px;
+border: 2px solid black;
+margin: auto;
+margin-bottom: 5%;
+display: flex;
+font-size: 18px;
+
+}
+.styleh1
+{
+color:crimson ;
+text-align: center;
+}
+#butt
+{
+width: 15%;
+height: 50px;
+margin-left: 40%;
+margin-top: 3%;
+color:white;
+background-color:crimson ;
+border: transparent;
+font-weight: 700;
+font-size: 25px;
+padding: 1%;
+padding-left: 2%;
+}
+#cat
+{
+width:30%;
+height: 40px;
+margin-left: 34.7%;
+font-size: 20px;
+background-color: palevioletred;
+color: black;
+
+}
+.container
+{
+width:60%;
+height: 620px;
+margin: auto;
+border: 1px solid transparent;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
