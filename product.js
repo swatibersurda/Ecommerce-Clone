@@ -1,4 +1,8 @@
 var product=JSON.parse(localStorage.getItem("adminData"));
+/// var arr=JSON.parse(localStorage.getItem(""));
+//var arr=[];
+var arr=JSON.parse(localStorage.getItem("cartvalue"))||[];
+
 console.log(product);
  display(product);
 
@@ -66,7 +70,7 @@ function sortbycat()
    var selected= document.querySelector("#sortbycat").value
    console.log(selected);
    console.log(product);
-   cat();
+   
 // selected=selected.toLowerCase();
 
 var res=product.filter(function(ele)
@@ -86,47 +90,17 @@ var res=product.filter(function(ele)
 display(res);
 }
 
-function cat()
-{
-    product.map(function(ele)
-    {
-        return ele.cat;
 
 
-    });
-}
-
-//  cat();
-//  product.filter(function(cat)
-
-// {
-//    if(selected=="FOUNDATION")
-//    {
-//        return ;
-//    }
-     
-
-// });
-
-// display(product);
 
 
-// }
 
-// function cat()
-//    {
-// var x=product.map(function(ele)
-// {
-//    return ele.cat;
-// });
-// console.log(x);
-//    }
 
 
  function display(product)
 {
     document.querySelector("#container").textContent="";
-    product.map(function(ele)
+    product.map(function(ele,index)
     {
         //  var x=ele.nameofproduct;
         // console.log(x);
@@ -136,14 +110,14 @@ function cat()
 
         var image=document.createElement("img")
         image.setAttribute("src",ele.image);
-        console.log(image);
+        // console.log(image);
 
 
         var nameoftheproduct=document.createElement("p")
         nameoftheproduct.setAttribute("class","nameofproduct")
         // nameoftheproduct.textContent=ele.nameofproduct+" "+ele.cat;
         nameoftheproduct.textContent=ele.nameofproduct;
-       console.log(nameoftheproduct);
+    //    console.log(nameoftheproduct);
 
        var cat=document.createElement("p")
        cat.textContent=ele.cat;
@@ -158,12 +132,40 @@ function cat()
         var butt=document.createElement("button")
         butt.setAttribute("class","buttton")
         butt.textContent="Add to cart";
+        butt.addEventListener("click",function()
+
+        {
+               del(index,ele);
+
+            // console.log(index);
+            // var x=product.splice(index,1);
+            // console.log(x);
+            // arr.push(x);
+            // // console.log(arr);
+            // localStorage.setItem("cartdata",JSON.stringify(arr));
+            
+
+
+        });
+        
+    
+
+
+
+
         divc.append(image,nameoftheproduct,cat,price,butt);
         document.querySelector("#container").append(divc);
-
-
-
 });
+
+function del(index,ele)
+{
+console.log(index);
+console.log(ele);
+arr.push(ele);
+console.log(arr);
+localStorage.setItem("cartvalue",JSON.stringify(arr));
+
+
 }
 
-
+}

@@ -1,6 +1,6 @@
 document.querySelector("#form").addEventListener("submit",adminValue)
-    // var admnvaluearr=[];
-    var admnvaluearr=JSON.parse(localStorage.getItem("adminData"))||[]
+      // var admnvaluearr=[];
+      var admnvaluearr=JSON.parse(localStorage.getItem("adminData"))||[]
     function adminValue(event)
     {
         event.preventDefault();
