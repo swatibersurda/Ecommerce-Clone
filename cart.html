@@ -55,6 +55,24 @@ text-align: center;
 {
     margin-top: 4.7%;
 }
+#total
+{
+    width:20%;
+    height:120px;
+    border:1px solid green;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    /* margin: auto; */
+    background-color: crimson;
+    color: white;
+    font-weight: 500;
+    padding-left: 2%;
+}
+p
+{
+    font-size: 20px;
+}
+
 
     </style>
 </head>
@@ -62,11 +80,19 @@ text-align: center;
     <div class="cart">
     <h1 class="align">CART</h1>
     <i class="fas fa-shopping-cart"></i>
+    
+    <div id="total">
+        <p>cart total</p>
+        <hr>
+
+    </div>
 
     </div>
    <div id="container">
 
    </div> 
+
+   
 </body>
 </html>
 
@@ -78,11 +104,10 @@ text-align: center;
     console.log(cart);
     display(cart);
     cartTotal(cart);
-
-
+    
     // console.log(cart[1].price);
     function display(cart)
-{
+   {
     document.querySelector("#container").textContent="";
     cart.map(function(ele,index)
     {
@@ -113,19 +138,14 @@ text-align: center;
         price.textContent=ele.price;
         console.log(price);
 
-        
-        
-        
-    
-
-
-
-
         divc.append(image,nameoftheproduct,cat,price);
         document.querySelector("#container").append(divc);
+        
 });
 }
- function cartTotal(cartvalue)
+ 
+
+function cartTotal(cartvalue)
  {
     //  var res=0;
     var res=cart.reduce(function(ac,cv)
@@ -135,16 +155,17 @@ text-align: center;
     },0);
 
 
-  
+    var carttotalvalue=document.createElement("p");
+     carttotalvalue.textContent=res;
+     document.querySelector("#total").append(carttotalvalue);
 
-console.log(res);
+//console.log(res);
+ }
 
-var carttotalvalue=document.createElement("p");
-carttotalvalue.textContent=res;
 
      
-document.querySelector("#container").append(carttotalvalue);
-    }
+//using for loop
+
 // for(var i=0;i<cart.length;i++)
 // {
 //     var res=res+Number(cart[i].price);

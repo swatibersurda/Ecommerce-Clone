@@ -11,6 +11,7 @@ document.querySelector("#form").addEventListener("submit",checkUser)
 
     if(name=="admin" && password=="admin")
     {
+        alert("LOGIN SUSSESFULLY");
         window.location.href="admin.html"
     }
     else
@@ -27,7 +28,7 @@ document.querySelector("#form").addEventListener("submit",checkUser)
             }
         }
     });
-}
+
         if(found)
         {
             alert("LOGIN SUSSESFULLY");
@@ -43,4 +44,5 @@ document.querySelector("#form").addEventListener("submit",checkUser)
         
         }
    
+    }
     }
