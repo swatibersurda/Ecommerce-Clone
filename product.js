@@ -15,8 +15,13 @@ console.log(product);
         var image=document.createElement("img")
         image.setAttribute("src",ele.image);
         console.log(image);
+
+
         var nameoftheproduct=document.createElement("p")
-        nameoftheproduct.textContent=ele.nameoftheproduct
+        nameoftheproduct.setAttribute("class","nameofproduct")
+        nameoftheproduct.textContent=ele.nameofproduct;
+       console.log(nameoftheproduct);
+
         var price=document.createElement("h4")
         price.setAttribute("class",'price');
         price.textContent=ele.price;
