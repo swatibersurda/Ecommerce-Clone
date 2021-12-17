@@ -5,76 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-    <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous"></script>
-    <style>
-#container
-        {
-            /* display: flex;
-            
-            flex-wrap: wrap; */
-            width:80%;
-            margin-left: 12%;
-            display: grid;
-            grid-template-columns: repeat(3,1fr); 
-            grid-gap: 7%;
-            justify-content: space-between;
-            /* background-color: green; */
+    <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous">
         
-        }
-
-        .price
-     {
-         margin-left: 30%;
-     }
+    </script>
+    <link rel="stylesheet" type="text/css" href="cart.css"
     
-     .nameofproduct
-     {
-         margin-left: 30%;
-     }
-     .cat
-     {
-         margin-left: 30%;
-     }
-h1
-{
-    color:crimson ;
-text-align: center;
-}  
-.cart
-{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100px;
-
-}
-.align
-{
-    margin-left: 80%;
-}
-.fas
-{
-    margin-top: 4.7%;
-}
-#total
-{
-    width:20%;
-    height:120px;
-    border:1px solid green;
-    margin-top: 0%;
-    margin-bottom: 2%;
-    /* margin: auto; */
-    background-color: crimson;
-    color: white;
-    font-weight: 500;
-    padding-left: 2%;
-}
-p
-{
-    font-size: 20px;
-}
-
-
-    </style>
 </head>
 <body>
     <div class="cart">
@@ -97,82 +32,6 @@ p
 </html>
 
 
-<script>
-
-    var cart=JSON.parse(localStorage.getItem("cartvalue"));
-    // display(cart);
-    console.log(cart);
-    display(cart);
-    cartTotal(cart);
-    
-    // console.log(cart[1].price);
-    function display(cart)
-   {
-    document.querySelector("#container").textContent="";
-    cart.map(function(ele,index)
-    {
-        //  var x=ele.nameofproduct;
-        // console.log(x);
-        
-       var divc=document.createElement("div");
-       divc.setAttribute("class","divc")
-
-        var image=document.createElement("img")
-        image.setAttribute("src",ele.image);
-        // console.log(image);
-
-
-        var nameoftheproduct=document.createElement("p")
-        nameoftheproduct.setAttribute("class","nameofproduct")
-        // nameoftheproduct.textContent=ele.nameofproduct+" "+ele.cat;
-        nameoftheproduct.textContent=ele.nameofproduct;
-    //    console.log(nameoftheproduct);
-
-       var cat=document.createElement("p")
-       cat.textContent=ele.cat;
-       cat.setAttribute("class","cat");
-
-
-        var price=document.createElement("h4")
-        price.setAttribute("class",'price');
-        price.textContent=ele.price;
-        console.log(price);
-
-        divc.append(image,nameoftheproduct,cat,price);
-        document.querySelector("#container").append(divc);
-        
-});
-}
- 
-
-function cartTotal(cartvalue)
- {
-    //  var res=0;
-    var res=cart.reduce(function(ac,cv)
-    {
-    
-        return ac+Number(cv.price);
-    },0);
-
-
-    var carttotalvalue=document.createElement("p");
-     carttotalvalue.textContent=res;
-     document.querySelector("#total").append(carttotalvalue);
-
-//console.log(res);
- }
-
-
-     
-//using for loop
-
-// for(var i=0;i<cart.length;i++)
-// {
-//     var res=res+Number(cart[i].price);
-// }
-// console.log(res);
-//}
-    
-
+<script src="cart.js">
 
 </script>
