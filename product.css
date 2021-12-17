@@ -3,6 +3,8 @@
             /* display: flex;
             
             flex-wrap: wrap; */
+            width:80%;
+            margin-left: 12%;
             display: grid;
             grid-template-columns: repeat(3,1fr); 
             grid-gap: 7%;
@@ -203,9 +205,43 @@
      {
          margin-left: 30%;
      }
+     .cat
+     {
+         margin-left: 30%;
+     }
     #container>.divc
     {
         margin-bottom: 5%;
         
     }
-      
+      #sortingdiv
+      {
+          height:90px;
+          width:11%;
+          border:3px solid black;
+          margin-top: 1%;
+      }
+      #sortbyprice
+      {
+          width:90%;
+          height:20px;
+          margin-left: 5%;
+          margin-top: 3%;
+
+      }
+      #sortbyname
+      {
+          width:90%;
+          height:20px;
+          margin-left: 5%;
+          margin-top: 3%;
+
+      }
+
+      #sortbycat
+      {
+        width:90%;
+        height:20px;
+        margin-left: 5%;
+        margin-top: 3%;
+      }
