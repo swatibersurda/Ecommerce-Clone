@@ -13,7 +13,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Ecommerce
 ```
 run index.html
 
@@ -36,19 +36,20 @@ frontend of [nnnow's](https://upbeat-banach-636206.netlify.app/).This project is
 
   ## Features 
 <!-- --- -->
--Signup/Login user and admin
--Product Filtration by category, price, and name
--Add to cart and Billing functionality
--User authentication
+
+  Signup/Login user and admin
+Product Filtration by category, price, and name
+Add to cart and Billing functionality
+User authentication
+  
 
 ## Steps to navigate the website:
 
 -On the home page.
 -Admin loggin user login. 
 -Sephhora section makup section.
-
 - On the Products Page. 
- - Sorting operation of products on price and type of makup cateogry.
+- Sorting operation of products on price and type of makup cateogry.
  
   
 - On the Cart page
@@ -65,4 +66,4 @@ A glimpse of the website
 
 #Author
 
--[@swatibersurda](https://github.com/swatibersurda)
+[swatibersurda](https://github.com/swatibersurda)
